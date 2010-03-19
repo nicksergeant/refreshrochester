@@ -48,6 +48,10 @@ body .button:hover {
   background-color: #2f400d;
   color: #fcfceb;
 }
+body sup {
+  vertical-align: super;
+  font-size: 10px;
+}
 #top-bar {
   background: #2b4307 url('/media/images/top-bar.gif') top left repeat;
   border-bottom: 1px solid #ffffff;
@@ -89,3 +93,46 @@ body .button:hover {
 #content .grid-8 .hr { margin: 22px 0; }
 #content .grid-8 h4 { margin-bottom: 5px; }
 #content .grid-8 p { margin-bottom: 5px; }
+#content .mailing-list label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+#content .mailing-list .submit { float: right; }
+#content .mailing-list input {
+  background-color: #e5e5ce;
+  border: 0;
+  border-left: 1px solid #dcddbb;
+  border-right: 1px solid #dcddbb;
+  border-top: 1px solid #cacb96;
+  border-radius: 5px;
+  color: #608d06;
+  font: bold 14px 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 10px 12px;
+  width: 374px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#content .speaking ul { margin-top: 22px; }
+#content .speaking ul li {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 15px;
+}
+#content .speaking ul li h5 {
+  line-height: 25px;
+  margin-bottom: 0;
+}
+#content .speaking ul li p {
+  font-size: 14px;
+  line-height: 22px;
+}
+#content .speaking ul li p a { font-weight: normal; }
+#footer {
+  padding-bottom: 75px;
+  text-align: center;
+}
+#footer a { margin-right: 20px; }

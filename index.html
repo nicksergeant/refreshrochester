@@ -21,12 +21,11 @@
 </head>
 
 <body>
-    
     <div id="top-bar" class="group">
         <div class="inner"></div>
     </div>
     <div class="container-16 group">
-        <div id="header" class="grid-16">
+        <div id="header" class="grid-16 group">
             <div class="grid-7 alpha">
                 <a href="/" title="Refresh Rochester"><img src="/media/images/logo.png" alt="Refresh Rochester" title="Refresh Rochester"></a>
                 <h3>_Push the Web</h3>
@@ -40,20 +39,33 @@
                 </ul>
             </div>
         </div>
-        <div id="content" class="grid-16">
+        <div id="content" class="grid-16 group">
             <div class="grid-7 alpha">
-                <h2>What is Refresh?</h2>
-                <p><em>Refresh Rochester</em> is a community of designers and developers working to refresh the creative, technical and professional culture of New Media endeavors in Rochester, NY. Promoting design, technology, usability and standards.</p>
-                <p>Refresh Rochester is part of the<br><a href="http://refreshingcities.org">Refreshing Cities movement</a>.</p>
+                <div class="info">
+                    <h2>What is Refresh?</h2>
+                    <p><em>Refresh Rochester</em> is a community of designers and developers working to refresh the creative, technical and professional culture of New Media endeavors in Rochester, NY. Promoting design, technology, usability and standards.</p>
+                    <p>Refresh Rochester is part of the<br><a href="http://refreshingcities.org">Refreshing Cities movement</a>.</p>
+                </div>
                 <div class="hr"></div>
-                <h2>Get on the mailing list</h2>
+                <div class="mailing-list">
+                    <h2>Get on the mailing list</h2>
+                    <form action="." method="post" accept-charset="utf-8">
+                        <div class="field">
+                            <label for="name">Name</label><input type="text" name="name" value="" id="name">
+                        </div>
+                        <div class="field">
+                            <label for="email">Email Address</label><input type="text" name="email" value="" id="email">
+                        </div>
+                        <a href="#" class="submit button">Submit</a>
+                    </form>
+                </div>
             </div>
             <div class="grid-8 push-1 omega">
                 <div class="meetup group">
-                    <h2>Our Next Meetup</h2>
+                    <h2>Our next meetup</h2>
                     <div class="grid-4 alpha">
                         <h4>When?</h4>
-                        <p><strong>Friday, April 2, 2010<br>7:00pm&ndash;11:00pm</strong></p>
+                        <p><strong>Friday, April 2nd, 2010<br>7:00pm&ndash;11:00pm</strong></p>
                         <a class="button" href="http://www.facebook.com/event.php?eid=357629800422" title="RSVP on Facebook">RSVP</a>
                     </div>
                     <div class="grid-4 omega">
@@ -65,14 +77,46 @@
                 <div class="hr"></div>
                 <div class="speaking group">
                     <h4>Who's Speaking?</h4>
+                    <ul>
+                        <li class="speaker group">
+                            <div class="photo grid-2 alpha">
+                                <img src="/media/images/patrick-haney.png" alt="Patrick Haney" title="Patrick Haney">
+                            </div>
+                            <div class="bio grid-6 omega">
+                                <h5>Patrick Haney</h5>
+                                <p>Patrick will present &ldquo;Design for Change, It Makes Cents&rdquo;.</p>
+                            </div>
+                        </li>
+                        <li class="speaker group">
+                            <div class="photo grid-2 alpha">
+                                <img src="/media/images/steve-losh.png" alt="Steve Losh" title="Steve Losh">
+                            </div>
+                            <div class="bio grid-6 omega">
+                                <h5>Steve Losh</h5>
+                                <p>Senior Software Engineer at <a href="http://dwaiter.com">Dumbwaiter Design</a> and frequent blogger at <a href="http://stevelosh.com">stevelosh.com</a>. Steve's talk: &ldquo;Using Version Control Will Make You Happy&rdquo;.</p>
+                            </div>
+                        </li>
+                        <li class="speaker group">
+                            <div class="photo grid-2 alpha">
+                                <img src="/media/images/ali-ali.png" alt="Ali Ali" title="Ali Ali">
+                            </div>
+                            <div class="bio grid-6 omega">
+                                <h5>Ali Ali</h5>
+                                <p>Lead UI designer at <a href="http://dwaiter.com">Dumbwaiter Design</a> and freelancer at <a href="http://alialithinks.com">alialithinks.com</a>. Ali will speak about &ldquo;UI Design and Invisible Interfaces&rdquo;.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div id="footer">
-        
+        <div id="footer" class="grid-16 group">
+            <div class="hr"></div>
+            <a href="http://campaignmonitor.com" title="Campaign Monitor"><img src="/media/images/campaign-monitor.png" alt="Campaign Monitor" title="Campaign Monitor"></a>
+            <a href="http://lionburger.com" title="Lion Burger"><img src="/media/images/lion-burger.png" alt="Lion Burger" title="Lion Burger"></a>
+            <a href="http://hanerino.com" title="Hanerino"><img src="/media/images/hanerino.png" alt="Hanerino" title="Hanerino"></a>
+            <a href="http://dwaiter.com" title="Dumbwaiter Design"><img src="/media/images/dumbwaiter-design.png" alt="Dumbwaiter Design" title="Dumbwaiter Design"></a>
         </div>
     </div>
-    
     <script type="text/javascript">
         //<![CDATA[
         var _gaq = _gaq || [];
@@ -85,7 +129,6 @@
         })();
         //]]>
     </script>
-
 </body>
 
 </html>

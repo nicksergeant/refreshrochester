@@ -34,8 +34,19 @@ body .hr {
 }
 body .button {
   background-color: #7bc104;
+  border-radius: 5px;
   color: #fcfceb;
   display: block;
+  float: left;
+  margin: 10px 0;
+  padding: 7px 30px;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+body .button:hover {
+  background-color: #2f400d;
+  color: #fcfceb;
 }
 #top-bar {
   background: #2b4307 url('/media/images/top-bar.gif') top left repeat;

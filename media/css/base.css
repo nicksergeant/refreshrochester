@@ -66,6 +66,12 @@ body sup {
   font-weight: bold;
   padding: 40px 0;
   padding-bottom: 31px;
+  position: relative;
+}
+#header .donate-here {
+  position: absolute;
+  right: 0;
+  top: -22px;
 }
 #header .grid-8 ul {
   margin: 0;

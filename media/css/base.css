@@ -140,6 +140,12 @@ body sup {
   line-height: 22px;
 }
 #content .speaking ul li p a { font-weight: normal; }
+#content .video-frame {
+  background-color: #ffffff;
+  border: 1px solid #d2d2c5;
+  padding: 5px;
+}
+#content .video-frame object { float: left; }
 #footer {
   padding-bottom: 75px;
   text-align: center;

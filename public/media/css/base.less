@@ -1,27 +1,26 @@
-#variables {
-    @default-font: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
-    @dark-green: #2F400D;
-    @dark-grey: #2F2F2D;
-    @green: #608D06;
-}
+@default-font: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+@dark-green: #2F400D;
+@dark-grey: #2F2F2D;
+@green: #608D06;
+
 body, html {
     background-color: #FCFCEC;
 }
 body {
-    color: #variables[@dark-grey];
+    color: @dark-grey;
     font-size: 18px;
     text-shadow: #FFF 1px 1px 1px;
     
     h2 {
-        color: #variables[@dark-green];
+        color: @dark-green;
         margin-bottom: 13px;
     }
     h3 {
-        color: #variables[@green];
+        color: @green;
         margin-bottom: 0;
     }
     h4 {
-        color: #variables[@dark-green];
+        color: @dark-green;
         font-family: Georgia, serif;
         font-style: italic;
         font-weight: normal;
@@ -30,12 +29,12 @@ body {
         line-height: 26px;
     }
     a {
-        color: #variables[@green];
+        color: @green;
         font-weight: bold;
         text-decoration: underline;
         
         :hover {
-            color: #variables[@dark-green];
+            color: @dark-green;
         }
     }
     .hr {
@@ -60,7 +59,7 @@ body {
         -webkit-border-radius: 5px;
         
         :hover {
-            background-color: #variables[@dark-green];
+            background-color: @dark-green;
             color: #FCFCEB;
         }
     }
@@ -70,7 +69,7 @@ body {
     }
 }
 #top-bar {
-    background: #2B4307 url('/media/images/top-bar.gif') top left repeat;
+    background: #2B4307 url('../images/top-bar.gif') top left repeat;
     border-bottom: 1px solid #FFF;
     height: 20px;
     
@@ -80,7 +79,7 @@ body {
     }
 }
 #header {
-    color: #variables[@dark-green];
+    color: @dark-green;
     font-weight: bold;
     padding: 40px 0;
     padding-bottom: 31px;
@@ -103,7 +102,7 @@ body {
                 margin: 0;
                 
                 a {
-                    background: transparent url('/media/images/social-media-icons.png') 0 0 no-repeat;
+                    background: transparent url('../images/social-media-icons.png') 0 0 no-repeat;
                     display: block;
                     float: left;
                     height: 52px;
@@ -165,8 +164,8 @@ body {
             border-right: 1px solid #DCDDBB;
             border-top: 1px solid #CACB96;
             border-radius: 5px;
-            color: #variables[@green];
-            font: bold 14px #variables[@default-font];
+            color: @green;
+            font: bold 14px @default-font;
             margin: 0;
             margin-bottom: 15px;
             padding: 10px 12px;
@@ -196,6 +195,9 @@ body {
                 }
             }
         }
+    }
+    .speaking p {
+        margin-bottom: 20px;
     }
     .video-frame {
         background-color: #FFF;

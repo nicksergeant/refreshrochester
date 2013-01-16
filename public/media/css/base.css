@@ -1,8 +1,11 @@
-body, html { background-color: #fcfcec; }
+body,
+html {
+  background-color: #FCFCEC;
+}
 body {
   color: #2f2f2d;
   font-size: 18px;
-  text-shadow: #ffffff 1px 1px 1px;
+  text-shadow: #FFF 1px 1px 1px;
 }
 body h2 {
   color: #2f400d;
@@ -18,25 +21,29 @@ body h4 {
   font-style: italic;
   font-weight: normal;
 }
-body p { line-height: 26px; }
+body p {
+  line-height: 26px;
+}
 body a {
   color: #608d06;
   font-weight: bold;
   text-decoration: underline;
 }
-body a:hover { color: #2f400d; }
+body a :hover {
+  color: #2f400d;
+}
 body .hr {
-  background-color: #cbc797;
-  border-bottom: 1px solid #ffffff;
+  background-color: #CBC797;
+  border-bottom: 1px solid #FFF;
   height: 1px;
   margin: 27px 0 20px 0;
   padding: 0;
   width: 100%;
 }
 body .button {
-  background-color: #7bc104;
+  background-color: #7BC104;
   border-radius: 5px;
-  color: #fcfceb;
+  color: #FCFCEB;
   display: block;
   float: left;
   margin: 10px 0;
@@ -46,22 +53,22 @@ body .button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-body .button:hover {
+body .button :hover {
   background-color: #2f400d;
-  color: #fcfceb;
+  color: #FCFCEB;
 }
 body sup {
   vertical-align: super;
   font-size: 10px;
 }
 #top-bar {
-  background: #2b4307 url('/media/images/top-bar.gif') top left repeat;
-  border-bottom: 1px solid #ffffff;
+  background: #2b4307 url('../images/top-bar.gif') top left repeat;
+  border-bottom: 1px solid #FFF;
   height: 20px;
 }
 #top-bar .inner {
   height: 21px;
-  border-bottom: 1px solid #c3c5a2;
+  border-bottom: 1px solid #C3C5A2;
 }
 #header {
   color: #2f400d;
@@ -85,36 +92,56 @@ body sup {
   margin: 0;
 }
 #header .grid-8 ul li a {
-  background: transparent url('/media/images/social-media-icons.png') 0 0 no-repeat;
+  background: transparent url('../images/social-media-icons.png') 0 0 no-repeat;
   display: block;
   float: left;
   height: 52px;
   margin-right: 10px;
   width: 52px;
 }
-#header .grid-8 ul li a.flickr { background-position: 0 -52px; }
-#header .grid-8 ul li a.flickr:hover { background-position: 0 0; }
-#header .grid-8 ul li a.facebook { background-position: -52px -52px; }
-#header .grid-8 ul li a.facebook:hover { background-position: -52px 0; }
-#header .grid-8 ul li a.twitter { background-position: -104px -52px; }
-#header .grid-8 ul li a.twitter:hover { background-position: -104px 0; }
-#content .grid-8 .hr { margin: 22px 0; }
-#content .grid-8 h4 { margin-bottom: 5px; }
-#content .grid-8 p { margin-bottom: 5px; }
+#header .grid-8 ul li a.flickr {
+  background-position: 0 -52px;
+}
+#header .grid-8 ul li a.flickr :hover {
+  background-position: 0 0;
+}
+#header .grid-8 ul li a.facebook {
+  background-position: -52px -52px;
+}
+#header .grid-8 ul li a.facebook :hover {
+  background-position: -52px 0;
+}
+#header .grid-8 ul li a.twitter {
+  background-position: -104px -52px;
+}
+#header .grid-8 ul li a.twitter :hover {
+  background-position: -104px 0;
+}
+#content .grid-8 .hr {
+  margin: 22px 0;
+}
+#content .grid-8 h4,
+#content .grid-8 p {
+  margin-bottom: 5px;
+}
 #content .mailing-list label {
   display: block;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 4px;
 }
-#content .mailing-list .submit { float: right; }
-#content .mailing-list .submit-button { display: none; }
+#content .mailing-list .submit {
+  float: right;
+}
+#content .mailing-list .submit-button {
+  display: none;
+}
 #content .mailing-list input {
-  background-color: #e5e5ce;
+  background-color: #E5E5CE;
   border: 0;
-  border-left: 1px solid #dcddbb;
-  border-right: 1px solid #dcddbb;
-  border-top: 1px solid #cacb96;
+  border-left: 1px solid #DCDDBB;
+  border-right: 1px solid #DCDDBB;
+  border-top: 1px solid #CACB96;
   border-radius: 5px;
   color: #608d06;
   font: bold 14px 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
@@ -125,7 +152,9 @@ body sup {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-#content .speaking ul { margin-top: 22px; }
+#content .speaking ul {
+  margin-top: 22px;
+}
 #content .speaking ul li {
   list-style-type: none;
   margin: 0;
@@ -139,15 +168,24 @@ body sup {
   font-size: 14px;
   line-height: 22px;
 }
-#content .speaking ul li p a { font-weight: normal; }
+#content .speaking ul li p a {
+  font-weight: normal;
+}
+#content .speaking p {
+  margin-bottom: 20px;
+}
 #content .video-frame {
-  background-color: #ffffff;
-  border: 1px solid #d2d2c5;
+  background-color: #FFF;
+  border: 1px solid #D2D2C5;
   padding: 5px;
 }
-#content .video-frame object { float: left; }
+#content .video-frame object {
+  float: left;
+}
 #footer {
   padding-bottom: 75px;
   text-align: center;
 }
-#footer a { margin-right: 20px; }
+#footer a {
+  margin-right: 20px;
+}
